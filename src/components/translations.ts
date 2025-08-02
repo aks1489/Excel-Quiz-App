@@ -30,7 +30,7 @@ export interface Translations {
 // UI translations in English and Bengali
 export const translations: Translations = {
     en: {
-        quizTitle: "Excel Skills Challenge",
+        quizTitle: "Excel Skills Test",
         submitBtn: "Submit Test",
         nextQuestionBtn: "Next Question",
         resultsTitle: "Your Results",
@@ -52,7 +52,7 @@ export const translations: Translations = {
         submitPasswordBtn: "Submit Password"
     },
     bn: {
-        quizTitle: "এক্সেল দক্ষতা চ্যালেঞ্জ",
+        quizTitle: "এক্সেল দক্ষতা পরীক্ষা",
         submitBtn: "পরীক্ষা জমা দিন",
         nextQuestionBtn: "পরবর্তী প্রশ্ন",
         resultsTitle: "আপনার ফলাফল",
