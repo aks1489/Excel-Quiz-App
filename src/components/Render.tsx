@@ -554,7 +554,7 @@ const Render: React.FC = () => {
                 onClick={toggleLanguage}
                 className="bg-gray-50 hover:bg-gray-100 border border-gray-300 text-gray-700 px-4 py-2 sm:px-6 sm:py-3 rounded-lg sm:rounded-xl font-medium transition-all duration-300 hover:shadow-md text-sm sm:text-base w-full sm:w-auto"
               >
-                {currentLanguage === 'en' ? '🇧🇩 বাংলা' : '🇺🇸 English'}
+                {currentLanguage === 'en' ? 'In বাংলা' : 'In English'}
               </button>
             </div>
           </div>
