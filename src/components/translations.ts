@@ -20,6 +20,8 @@ export interface TranslationTexts {
     passwordPlaceholder: string;
     incorrectPassword: string;
     submitPasswordBtn: string;
+    previousQuestionBtn: string;
+    printBtn: string;
 }
 
 export interface Translations {
@@ -49,7 +51,9 @@ export const translations: Translations = {
         enterPasswordPrompt: "Enter password to retake the test:",
         passwordPlaceholder: "Password",
         incorrectPassword: "Incorrect password. Please try again.",
-        submitPasswordBtn: "Submit Password"
+        submitPasswordBtn: "Submit Password",
+        printBtn: "Print Results",
+        previousQuestionBtn: "Previous Question",
     },
     bn: {
         quizTitle: "এক্সেল দক্ষতা পরীক্ষা",
@@ -71,6 +75,8 @@ export const translations: Translations = {
         enterPasswordPrompt: "পরীক্ষা পুনরায় শুরু করতে পাসওয়ার্ড লিখুন:",
         passwordPlaceholder: "পাসওয়ার্ড",
         incorrectPassword: "ভুল পাসওয়ার্ড। অনুগ্রহ করে আবার চেষ্টা করুন।",
-        submitPasswordBtn: "পাসওয়ার্ড জমা দিন"
+        submitPasswordBtn: "পাসওয়ার্ড জমা দিন",
+        printBtn: "ফলাফল প্রিন্ট করুন",
+        previousQuestionBtn: "পূর্ববর্তী প্রশ্ন"
     }
 };
